@@ -1,0 +1,11 @@
+{
+  "name": "sinf-2021-competition",
+  "version": "1.0.0",
+  "description": "Collection of problems developed or the 2021 edition of [SINF](https://sinf.pt/), a tech event hosted in Porto for the computer engineeringstudent (and others) community.\"",
+  "main": "utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juliane Marubayashi",
+  "license": "MIT"
+}
