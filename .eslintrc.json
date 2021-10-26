@@ -23,7 +23,6 @@
         "no-misleading-character-class": "error",
         "no-template-curly-in-string": "error",
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
-        "linebreak-style": ["error", "windows"],
   
         // Best practices
         "array-callback-return": "error",
