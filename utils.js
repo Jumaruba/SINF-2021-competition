@@ -22,6 +22,19 @@ const writeInput = (testNumber, problemPath, content, pad) => {
     fs.writeFileSync(`${problemPath}/input/input${padTestNumber}.txt`, content); 
 } 
 
+
+const generateRandomWord = (size) => {
+    let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']; 
+    let alphaSize = letters.length;
+    let str = "";
+
+    for (let i = 0 ; i < size; i++){
+        str += letters[generateRandomInt(0, alphaSize-1)]; 
+    }
+
+    return str; 
+}
+
 module.exports = {
     generateRandomInt,
     writeInput,
