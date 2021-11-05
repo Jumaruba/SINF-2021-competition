@@ -1,6 +1,6 @@
-# Meeting to Capture Charizardizius
+## Meeting to capture Charizardius
 
-## <Statment>  
+## <Statment>
 Some pokemon are really hard to capture and sometimes big teams are created to make this possible. That's the case of *Charizardizius*: your next target.  
 
 To make this operation practicable, a meeting needs to be scheduled, so that a whole strategy can be discussed.   
@@ -8,13 +8,13 @@ To make this operation practicable, a meeting needs to be scheduled, so that a w
 You have decided to merge the overlapping time ranges, so that you could visualize better the available timeframes.  
 In the end, how many timeframes will the final schedule have?  
 
-## Input format  
+## Input format
 The first line contains the number **N** of intervals given.  
-The following **N** lines contains a pair of integers separated by space indicating the **Sm**, the start minute, and the **Em**, the ending minute of the interval.    
+The following **N** lines contains a pair of integers separated by space indicating the **Sm**, the start minute, and the **Em**, the ending minute of the interval.  
 
-## Constraints  
+## Constraints
 - `1 <= N <= 10^4`
-- `0 <= Si <= Si <= 10^4`
+- `0 <= Si <= Si <= 10^4`  
 
 ## Output format
-The output should be a single integer representing the number of time ranges after the merge operation.  
+The output should be a single integer representing the number of time ranges after the merge operation.
